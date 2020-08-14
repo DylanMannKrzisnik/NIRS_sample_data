@@ -9,10 +9,10 @@ The ***exportData*** directory contains figures displaying block events (*motor_
 
 The following command serves to import data using MNE-Python:
 
-**raw_intensity = mne.io.read_raw_nirx("full_path_to_data/NIRS_sample_data")**
+    **raw_intensity = mne.io.read_raw_nirx("full_path_to_data/NIRS_sample_data")**
 
 However, this results in the following error message:
 
-**RuntimeError: MNE does not support this NIRStar version ("15.3")**
+    **RuntimeError: MNE does not support this NIRStar version ("15.3")**
 
 NB: Figures very large, might need to scroll around
